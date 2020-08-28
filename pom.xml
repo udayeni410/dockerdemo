@@ -84,28 +84,6 @@
 			
 			
 			
-	<plugin>
-    	<groupId>com.spotify</groupId>
-    	<artifactId>dockerfile-maven-plugin</artifactId>
-    	<version>1.4.13</version>
-    	<configuration>
-    		<buildArgs>
-			<JAR_FILE>target/demo.jar</JAR_FILE>
-			</buildArgs>
-		</configuration>
-    	<executions>
-    		<execution>
-    			<id>default</id>
-				<phase>install</phase>
-    			<goals>
-    				<goal>build</goal>
-    			</goals>
-    	</execution>
-    </executions>
-    </plugin>
-			
-			
-			
 			
 		</plugins>
 		<finalName>docker-demo</finalName>
